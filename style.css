@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(231, 230, 229);
+}
+
+.navbar-brand {
+    font-family: Orbitron;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(141, 95, 39);
+}
+
+.navBox {
+    background-color: rgb(195, 189, 181);
+}
+
+.profile {
+    background-color: rgb(112, 103, 88);
+    color: bisque;
+}
+
+.profileText {
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-top: 45px;
+margin-bottom: 45px;
+}
+
+.imgDiv {
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-top: 45px;
+margin-bottom: 45px;
+}
+
+img {
+    border: 1.2px solid bisque;
+    border-radius: 5px;
+}
+
+.creds {
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.credentials {
+    background-color: rgb(231, 230, 229);
+}
+
+.card-body {   
+    background-color: rgb(195, 189, 181);
+    color: rgb(63, 53, 41);
+}
+
+.card-footer {
+    background-color: rgb(112, 103, 88);
+}
+
+h4 {
+    text-align: center;
+}
+
+a:hover {color: bisque;
+    background-color: rgb(112, 103, 88)    
+}
+
+.nav-link:hover {
+    color: bisque;
+    background-color: rgb(112, 103, 88)
+}
+
+.nameSize {
+    font-size: 40px;
+}
+
+.titleSize {
+    font-size: 20px;
+}
